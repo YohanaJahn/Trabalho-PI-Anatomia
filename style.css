@@ -1,0 +1,44 @@
+:root {
+    --cor-principal: #000000;
+    --cor-conteudo: #ffffff;
+    --cor-bottom: rgb(29, 125, 214);
+    --cor-conteudo-interno: #3f3f3f;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+  }
+
+body {
+    padding-top: 60px;
+    background-color: var(--cor-principal);
+}
+
+.navbar {
+    margin-bottom: 20px;
+    background-color: var(--cor-conteudo-interno);
+}
+.card-body{
+    background-color: var(--cor-principal);
+}
+.col-md-4{
+    margin-top: 12px;
+}
+.btn{
+    border: 3px solid var(--cor-bottom);
+}
+h2{
+    font-size: 53px;
+}
+.col-md-6 p{
+    font-size: 20px;
+}
+footer {
+    background-color: #ffffff7a;
+    color: #000000;
+    text-align: center;
+    font-size: 13px;
+    margin-top: 25px;
+}
